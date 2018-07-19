@@ -1,0 +1,54 @@
+body {
+  padding: 10px;
+  text-align: right;
+}
+
+#output {
+  float: left;
+  background-color: lightblue;
+  height: 100%;
+  width: 50%;
+  text-align: left;
+}
+
+#wyniki {
+  float: left;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+button {
+  background-color: seagreen;
+  font-size: 30px;
+  display: inline;
+}
+button:hover {
+  color: #02ac46;
+  background-color: #fff;
+}
+
+#result {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#buttony {
+  text-align: center;
+}
+
+#newGame {
+  text-align: center;
+  padding: 30px;
+}
+
+#startGame {
+  background-color: #ff3338;
+}
+#startGame:hover {
+  color: white;
+  background-color: #ff3338;
+}
+
+#status {
+  font-size: 30px;
+}
