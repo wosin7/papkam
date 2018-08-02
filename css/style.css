@@ -1,54 +1,35 @@
-body {
-  padding: 10px;
-  text-align: right;
-}
+body { padding: 10px; text-align: right; }
 
-#output {
-  float: left;
-  background-color: lightblue;
-  height: 100%;
-  width: 50%;
-  text-align: left;
-}
+#output { float: left; background-color: #48b8dd; height: 100%; width: 50%; text-align: left; }
 
-#wyniki {
-  float: left;
-  background-color: lightgreen;
-  text-align: center;
-}
+#wyniki { float: left; background-color: lightgreen; text-align: center; }
 
-button {
-  background-color: seagreen;
-  font-size: 30px;
-  display: inline;
-}
-button:hover {
-  color: #02ac46;
-  background-color: #fff;
-}
+button { background-color: #21854c; font-size: 30px; display: inline; }
 
-#result {
-  font-size: 25px;
-  font-weight: bold;
-}
+button:hover { color: #02ac46; background-color: #fff; }
 
-#buttony {
-  text-align: center;
-}
+#result { font-size: 25px; font-weight: bold; }
 
-#newGame {
-  text-align: center;
-  padding: 30px;
-}
+#buttony { text-align: center; }
 
-#startGame {
-  background-color: #ff3338;
-}
-#startGame:hover {
-  color: white;
-  background-color: #ff3338;
-}
+#newGame { text-align: center; padding: 30px; }
 
-#status {
-  font-size: 30px;
-}
+#startGame { background-color: #ff3338; }
+
+#startGame:hover { color: white; background-color: #ff3338; }
+
+#status { font-size: 30px; }
+
+.modal { background: #fff; width: 600px; position: absolute; top: 50%; left: 50%; transform: translate3d(-50%, -50%, 0); }
+
+.modal .close { position: absolute; right: 0; top: 0; padding: 5px; color: #000; text-decoration: none; }
+
+.modal header { font-size: 30px; line-height: 30px; min-height: 30px; font-weight: bold; padding: 0 30px; text-align: center; }
+
+.modal .content { min-height: 30px; padding: 5px 30px; text-align: center; }
+
+.overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); }
+
+.overlay.show { display: block; }
+
+table { font-size: 15px; border: 2px solid black; }

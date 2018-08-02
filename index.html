@@ -24,19 +24,34 @@
   <div id="result">
     0 - 0
   </div>
-  <div id="status">
+  <div>
   </div>
 </div>
  <div id="buttony">
-   <button id="kamien">Kamień</button>
-  <button id="papier">Papier</button>
-  <button id="nozyce">Nożyce</button>
+   <button id="kamien" data-move="rock" class="player-move">Kamień</button>
+  <button id="papier" data-move="paper" class="player-move">Papier</button>
+  <button id="nozyce" data-move="scissors" class="player-move">Nożyce</button>
 </div>
 <div id="newGame">
   <button id="startGame">Nowa Gra</button>
 </div>
   
-  
+<a href="#" class="show-modal">Show modal</a>
+<div class="overlay" id="modal-overlay">
+	<div class="modal">
+		<a href="#" class="close">x</a>
+		<header>WYNIK:</header>
+		<div class="content">
+      <p id="status"></p>
+      <p>
+        <table id="table">
+
+
+        </table>
+      </p>
+		</div>
+	</div>
+</div>
 
     <script  src="js/index.js"></script>
 

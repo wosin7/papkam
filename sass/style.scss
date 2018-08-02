@@ -5,7 +5,7 @@ body {
 #output {
  // display: inline;
   float: left;
-  background-color: lightblue;
+  background-color: rgb(72, 184, 221);
   height: 100%;
   width: 50%;
   text-align: left;
@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 button {
-	background-color: seagreen;
+	background-color: rgb(33, 133, 76);
   font-size: 30px;
   display: inline;
 	
@@ -46,4 +46,53 @@ button {
 }
 #status {
   font-size: 30px;
+}
+.modal {
+	background: #fff;
+	width: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	
+	.close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 5px;
+		color: #000;
+		text-decoration: none;
+	}
+	
+	header {
+		font-size: 30px;
+		line-height: 30px;
+		min-height: 30px;
+		font-weight: bold;
+    padding: 0 30px;
+    text-align: center;
+	}
+
+	.content {
+		min-height: 30px;
+    padding: 5px 30px;
+    text-align: center;
+	}
+}
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	
+	&.show {
+		display: block;
+	}
+}
+table {
+  font-size: 15px;
+  border: 2px solid black;
 }
